@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 00cafce00155b314da560ebbc2812b5f
+guid: 636fb1192be0c5a4daf78a6dcad028a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8113838663388274304
-    second: Snow flake 02_0
+      213: 2695397407002535339
+    second: Platform_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Snow flake 02_0
+      name: Platform_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 31
-        height: 31
+        width: 2000
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08169ef79bad56f80800000000000000
-      internalID: -8113838663388274304
+      spriteID: ba525ec29a9f76520800000000000000
+      internalID: 2695397407002535339
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Snow flake 02_0: -8113838663388274304
+      Platform_0: 2695397407002535339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

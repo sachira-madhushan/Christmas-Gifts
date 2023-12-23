@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 00cafce00155b314da560ebbc2812b5f
+guid: 2b2492525d4a1bb41b36b8f6dee5fcd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8113838663388274304
-    second: Snow flake 02_0
+      213: 6200268698672024162
+    second: "\u2014Pngtree\u2014black christmas tree silhouette_5578029_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Snow flake 02_0
+      name: "\u2014Pngtree\u2014black christmas tree silhouette_5578029_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 31
-        height: 31
+        x: 234
+        y: 89
+        width: 702
+        height: 1059
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08169ef79bad56f80800000000000000
-      internalID: -8113838663388274304
+      spriteID: 26ac150f787cb0650800000000000000
+      internalID: 6200268698672024162
       vertices: []
       indices: 
       edges: []
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Snow flake 02_0: -8113838663388274304
+      "\u2014Pngtree\u2014black christmas tree silhouette_5578029_0": 6200268698672024162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
