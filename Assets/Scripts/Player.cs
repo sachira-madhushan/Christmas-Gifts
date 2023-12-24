@@ -18,6 +18,9 @@ public class Player : MonoBehaviour
     int highscore;
     int healthCount = 0;
     int score = 0;
+    public Admob ads;
+    bool adsplayed = false;
+    bool gameOver = false;
     private void Start()
     {
         Time.timeScale = 1;
@@ -31,7 +34,7 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (healthCount >= 5)
+        if (healthCount >= 5 &&!adsplayed)
         {
             Time.timeScale = 0;
             if (highscore < score)
@@ -47,6 +50,10 @@ public class Player : MonoBehaviour
                 audio.clip = defeat;
                 audio.Play();
             }
+            ads.ShowRewardedAd();
+            ads.LoadRewardedAd();
+            adsplayed = true;
+            gameOver = true;
         }
         if (leftPressed)
         {
@@ -82,6 +89,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (gameOver) return;
         if (collision.gameObject.tag == "Gift")
         {
             
@@ -95,6 +103,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (gameOver) return;
         if (collision.gameObject.tag == "Ball")
         {
             health[healthCount].SetActive(false);

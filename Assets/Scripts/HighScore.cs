@@ -9,10 +9,12 @@ public class HighScore : MonoBehaviour
     void Start()
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 000).ToString();
+        Time.timeScale = 1;
     }
 
     public void playButton()
     {
+        
         SceneManager.LoadScene("Christmas");
     }
 

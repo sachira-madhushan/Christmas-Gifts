@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class Buttons : MonoBehaviour
 {
     public GameObject pauseWindow;
+    public Admob ads;
     private void Start()
     {
         pauseWindow.SetActive(false);
