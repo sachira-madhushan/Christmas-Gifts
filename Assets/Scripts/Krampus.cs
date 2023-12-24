@@ -12,9 +12,11 @@ public class Krampus : MonoBehaviour
     int krampusCode = 0;
     bool outed = true;
     bool getBreak = false;
+    private AudioSource audio;
     void Start()
     {
-
+        audio = GetComponent<AudioSource>();
+        
     }
 
     
@@ -24,6 +26,7 @@ public class Krampus : MonoBehaviour
         krampusTime += Time.deltaTime;
         if (krampusTime > 40)
         {
+            
             if (krampusCode == 0)
             {
                 krampusCode = 1;
@@ -49,7 +52,7 @@ public class Krampus : MonoBehaviour
             {
                 rightKrampus.transform.position = new Vector3(rightKrampus.transform.position.x - 5, rightKrampus.transform.position.y);
             }
-            
+            audio.Play();
             inTime = 0;
             outed = false;
             ballLaunch.LaunchBall();

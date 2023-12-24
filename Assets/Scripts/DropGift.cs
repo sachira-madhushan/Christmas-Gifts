@@ -5,6 +5,7 @@ using UnityEngine;
 public class DropGift : MonoBehaviour
 {
     public GameObject[] Gifts;
+    
     float timer = 0;
     void Start()
     {

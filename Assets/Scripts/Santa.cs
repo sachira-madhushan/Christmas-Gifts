@@ -12,9 +12,11 @@ public class Santa : MonoBehaviour
     int direction = 0;
     float speed =1;
     bool upOrDown = false;
+    private AudioSource audio;
     void Start()
     {
         renderer = GetComponent<SpriteRenderer>();
+        audio = GetComponent<AudioSource>();
     }
 
     
@@ -38,21 +40,11 @@ public class Santa : MonoBehaviour
 
             Instantiate(Gifts[randomGift],giftLocation.transform.position,Quaternion.identity);
         }
-        /*if (upTimeAndDownTime > 30)
+        if (upTimeAndDownTime > 20)
         {
-            if (upOrDown)
-            {
-                upOrDown = false;
-                ChangePosition();
-            }
-            else
-            {
-                upOrDown = true;
-                ChangePosition();
-            }
-
+            audio.Play();
             upTimeAndDownTime = 0;
-        }*/
+        }
         
         
     }
