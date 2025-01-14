@@ -43,9 +43,9 @@ PlayerSettings:
   - logo: {fileID: 10404, guid: 0000000000000000f000000000000000, type: 0}
     duration: 2
   - logo: {fileID: -1942645314456094108, guid: 95a09e3c6f382734cacedc499f805cb1, type: 3}
-    duration: 3
+    duration: 2
   - logo: {fileID: 21300000, guid: 82b7c961af35c214687e21fc61f41331, type: 3}
-    duration: 5
+    duration: 2
   - logo: {fileID: 21300000, guid: 31736453d4900ec43a4688450d81647e, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
